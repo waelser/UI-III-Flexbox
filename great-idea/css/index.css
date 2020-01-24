@@ -64,3 +64,167 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	max-width: 900px;
+	margin: auto;
+}
+
+.topbar {
+	width: 100%;
+}
+
+.navigation {
+	/*border: 1px dashed black;*/
+	width: 100%;
+	height: 50px;
+	margin: 1%;
+	box-sizing: 100%;
+}
+.navigation a {
+	text-decoration: none;
+	display: inline-block;
+	color: gray;
+	width: 12%;
+	line-height: 50px;
+}
+.navigation a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	float: right;
+}
+
+.bothsections {
+	border: 2px solid pink;
+} 
+
+ /*.box { 
+	border: 2px solid brown;
+	display: inline-block;
+	width: 45%;
+}*/
+
+.heading {
+	/*border: 1px dashed black;*/
+	width: 45%;
+	display: inline-block;
+	border: 2px solid red;
+	
+
+}
+
+.title {
+	width: 50%;
+	margin: 10% 10% 0 0;
+}
+
+.title p {
+	font-size: 60px;
+	text-align: center;
+}
+
+.image {
+	border: 2px solid blue;
+}
+
+button {
+	color: gray;
+	margin: 0 0 0 20%;
+	padding: 5px 10px 5px 10px;
+}
+
+button:hover {
+	color: black;
+}
+
+.heading img {	
+    margin: 1%;
+	display: inline;
+	border: 2px solid black;
+	position: absolute;
+	top: 25%;
+	right: 12%;
+	
+}
+
+.pagebreak-top {
+	border: 1px solid black;
+	width: auto;
+}
+
+.initial-content {
+	/*border: 1px dashed black;*/
+	width: 100%;
+	margin: 1%;
+	padding: 5% 0% 5% 0%;
+}
+
+.left {
+	display: inline-block;
+	max-width: 50%;
+}
+
+.right {
+	max-width: 50%;
+	float: right;
+}
+
+.centre {
+	/*border: 1px dashed black;*/
+	width: 100%;
+	margin: 1%;
+}
+
+.middle-img {
+	display: block;
+  background-size: cover;
+}
+
+.secondary-content {
+	/*border: 1px dashed black;*/
+	width: 100%;
+	margin: 1%;
+	padding: 5% 0% 5% 0%;
+}
+
+.pagebreak-bottom {
+	border: 1px solid black;
+	width: auto;
+}
+
+.information1 {
+	display: inline-block;
+	max-width: 33%;
+}
+
+.information2 {
+	display: inline-block;
+	max-width: 33%
+}
+
+.information3 {
+	display: inline-block;
+	max-width: 33%
+}
+
+.contact {
+	/*border: 1px dashed black;*/
+	width: 100%;
+	margin: 1%;
+	padding-top: 5%;
+}
+
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	/*border: 1px dashed black;*/
+	width: 100%;
+	margin: 1%;
+	text-align: center;
+	padding: 5% 5% 10% 5%;
+}
