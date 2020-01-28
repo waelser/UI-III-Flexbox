@@ -239,13 +239,19 @@ footer {
 	padding: 5% 5% 10% 5%;
 }
 
+.services-header-img {
+	width: 100%;
+}
+
 .layer-one {
 	margin-top: 5%;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .opener {
 	margin-bottom: 3%;
-	border-bottom: 1.25px solid black;
+
 }
 
 .opener p {
@@ -269,8 +275,8 @@ footer {
 }
 
 .closer {
-	border: 1px solid black;
 	margin: 5% 0 5% 0;
+	border: 1px solid black;
 }
 
 li {
@@ -286,6 +292,15 @@ button {
     margin: 2.5% 0 1.25% 0;
 }
 
+.cta {
+	margin-top: 5%;
+}
+
+.cta a {
+	text-decoration: none;
+	color: black;
+}
+
 .box-container {
 	width: 50%;
 	border: 1px solid black;
@@ -298,4 +313,14 @@ button {
 	width: 50%;
 	margin: 2%;
 	padding: 20px;
+}
+
+.closing p {
+	margin-bottom: 5%;
+}
+
+.closing ul {
+	margin-left: 5%;
+	line-height: 30px;
+
 }
