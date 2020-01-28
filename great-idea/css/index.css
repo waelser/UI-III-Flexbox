@@ -238,3 +238,36 @@ footer {
 	text-align: center;
 	padding: 5% 5% 10% 5%;
 }
+
+.layer-one {
+
+}
+
+.layer-two {
+	display: flex;
+}
+
+.layer-three {
+	display: flex;
+}
+
+.layer-four {
+	display: flex;
+}
+
+.layer-five {
+	display: flex;
+}
+
+li {
+	list-style: square;
+}
+
+button {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    width: 125px;
+    margin: 2.5% 0 1.25% 0;
+}
