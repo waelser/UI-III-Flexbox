@@ -72,6 +72,7 @@ body {
 
 .topbar {
 	width: 100%;
+	display: flex;
 }
 
 .navigation {
@@ -80,13 +81,16 @@ body {
 	height: 50px;
 	margin: 1%;
 	box-sizing: 100%;
+	justify-content: space-between;
 }
 .navigation a {
 	text-decoration: none;
-	display: inline-block;
 	color: gray;
 	width: 12%;
 	line-height: 50px;
+	flex-flow: row;
+	justify-content: space-around;
+	padding: 25px;
 }
 .navigation a:hover {
 	text-decoration: underline;
@@ -97,42 +101,48 @@ body {
 }
 
 .bothsections {
-	border: 2px solid pink;
+	/* border: 2px solid pink; */
+	display: flex;
+	justify-content: space-between;
+	margin: 10% 0 10% 0;
+	text-align: center;
+
+
 } 
 
- /*.box { 
-	border: 2px solid brown;
-	display: inline-block;
-	width: 45%;
-}*/
+.box {
+	margin: 10% 10% 0 10%;
+}
 
 .heading {
 	/*border: 1px dashed black;*/
 	width: 45%;
-	display: inline-block;
-	border: 2px solid red;
-	
+	/* border: 2px solid red; */
 
 }
 
 .title {
 	width: 50%;
-	margin: 10% 10% 0 0;
+	/* margin: 10% 10% 0 10%; */
+	text-align: center;
+
 }
 
 .title p {
-	font-size: 60px;
-	text-align: center;
+	font-size: 75px;
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+
 }
 
 .image {
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 }
 
 button {
 	color: gray;
-	margin: 0 0 0 20%;
-	padding: 5px 10px 5px 10px;
+	margin: 0 0 0 35%;
 }
 
 button:hover {
